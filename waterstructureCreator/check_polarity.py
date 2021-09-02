@@ -1,9 +1,8 @@
 import numpy as np
 from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
 
-########### Getting the polarity
+# Getting the polarity
 
-# Testing Polarity accuracy:
 def get_structure_polarity(selected_h2o):
     """Check the water structures for polarity
 
@@ -17,7 +16,7 @@ def get_structure_polarity(selected_h2o):
     structure_polarity  : dict
         dictionary of structures and their polarity as boolean
     """
-    
+
     structure_polarity = {}
     for water_structs in selected_h2o.keys():
         water_struct_list = selected_h2o[water_structs]
@@ -33,7 +32,3 @@ def get_structure_polarity(selected_h2o):
         polt = not bool(int(np.round(np.mean(polt),0)))
         structure_polarity[water_structs] = polt
     return structure_polarity
-# It seems hard to make a consistent determination of polarity
-# it should be possible to be setted externally.
-# the is_laue test is bullshit as it also evaluates in-plane asymmetry
-# we only want out of plane assymmetry!!!!
