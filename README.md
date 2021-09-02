@@ -1,5 +1,5 @@
 # waterstructureCreator
-![alt text](https://github.com/computationalelectrochemistrygroup/WaterStructureCreator/blob/c5207b26aa422c55cccf89ffcc567ab407a7ff1d/df_iloc46z.png)
+![alt text](https://github.com/computationalelectrochemistrygroup/WaterStructureCreator/blob/f0e3685be14586eed73d4ade79fe812a91bc5ac3/fig2Dwater_Pt111.png)
 ## Installation
 
 Clone or download the repository.
