@@ -16,4 +16,4 @@ You need to redo the installation everytime you pull from git or you can install
 
 Please keep in mind to use Python 3.8.3 for the installation and usage of the package and do not update the installed packages later on.
 
-For testing the package, run the python-scripts in `/examples/` and check whether they generate output in separate folders.
+For testing the package, run the python-scripts in `/examples/` and check whether they generate plots or visualizations of the 2D water structures.
